@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Blocker</string>
+
+    <string name="accessibility_service_label">App Blocker</string>
+    <string name="accessibility_service_description">Watches which app comes to the foreground so blocked apps can be covered by the block screen. It does not read, store, or transmit screen content.</string>
+
+    <string name="title_main">App Blocker</string>
+    <string name="subtitle_main">Block the apps that eat your day.</string>
+
+    <string name="section_permissions">Permissions</string>
+    <string name="section_focus">Focus session</string>
+    <string name="section_blocked_apps">Blocked apps</string>
+    <string name="section_blocked_sites">Blocked websites</string>
+    <string name="section_schedules">Schedules</string>
+    <string name="section_options">Options</string>
+
+    <string name="perm_accessibility">Accessibility service</string>
+    <string name="perm_accessibility_desc">Required. Detects which app is in the foreground.</string>
+    <string name="perm_overlay">Display over other apps</string>
+    <string name="perm_overlay_desc">Required. Draws the block screen on top of a blocked app.</string>
+    <string name="perm_usage">Usage access</string>
+    <string name="perm_usage_desc">Optional. Used by the watchdog fallback.</string>
+    <string name="perm_enabled">Enabled</string>
+    <string name="perm_disabled">Not enabled</string>
+    <string name="action_enable">Enable</string>
+
+    <string name="focus_idle">No session running</string>
+    <string name="focus_running">Focus until %1$s</string>
+    <string name="focus_start">Start 25-minute session</string>
+    <string name="focus_stop">End session</string>
+
+    <string name="blocked_apps_none">No apps selected</string>
+    <string name="blocked_apps_count">%1$d app(s) blocked</string>
+    <string name="action_choose_apps">Choose apps</string>
+
+    <string name="sites_none">No websites blocked</string>
+    <string name="sites_count">%1$d website(s) blocked</string>
+    <string name="action_edit_sites">Edit list</string>
+
+    <string name="schedules_none">No schedules</string>
+    <string name="schedules_count">%1$d schedule(s)</string>
+    <string name="action_manage_schedules">Manage schedules</string>
+
+    <string name="option_reels">Block Instagram Reels</string>
+    <string name="option_shorts">Block YouTube Shorts</string>
+    <string name="option_watchdog">Run watchdog service</string>
+    <string name="option_watchdog_desc">Checks the foreground app every second. Uses more battery.</string>
+
+    <string name="footer_note">App Blocker never uploads anything. The accessibility service is used only to see which package is in the foreground.</string>
+
+    <string name="sites_dialog_title">Blocked websites</string>
+    <string name="sites_dialog_hint">One domain per line, e.g. x.com</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="picker_title">Blocked apps</string>
+    <string name="picker_search">Search apps</string>
+    <string name="picker_save">Save</string>
+
+    <string name="schedules_title">Schedules</string>
+    <string name="schedule_add">Add schedule</string>
+    <string name="schedule_edit">Edit schedule</string>
+    <string name="schedule_label">Label</string>
+    <string name="schedule_start">Start</string>
+    <string name="schedule_end">End</string>
+    <string name="schedule_days">Repeat on</string>
+    <string name="schedule_delete">Delete</string>
+    <string name="schedule_empty">No schedules yet. Add one to lock your block list to a time window.</string>
+
+    <string name="block_title_always">%1$s is blocked</string>
+    <string name="block_title_focus">%1$s is paused for focus</string>
+    <string name="block_title_schedule">%1$s is locked</string>
+    <string name="block_body_always">You chose to block this app. Open App Blocker to change the list.</string>
+    <string name="block_body_focus">Your focus session is running. The app will be available when it ends.</string>
+    <string name="block_body_schedule">A scheduled focus window is active right now.</string>
+    <string name="block_action_home">Go home</string>
+    <string name="block_action_open">Open App Blocker</string>
+
+    <string name="watchdog_channel">App Blocker watchdog</string>
+    <string name="watchdog_title">App Blocker is watching</string>
+    <string name="watchdog_text">Blocked apps will be covered as soon as they open.</string>
+
+    <string name="toast_site_blocked">Website blocked</string>
+    <string name="toast_reels_blocked">Reels blocked</string>
+    <string name="toast_shorts_blocked">Shorts blocked</string>
+</resources>
